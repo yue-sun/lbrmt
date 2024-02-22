@@ -26,7 +26,7 @@ The LBRMT is suitable for parallelization and capturing the multi-body contact o
 
 ## _"What is a video worth?"_
 
-If a picture is worth a thousand words, check out our example simulation videos!
+If a picture is worth a thousand words, check out our [simulation videos](https://github.com/yue-sun/lbrmt/videos/README.md)!
 
 
 ## How to use LBRMT?
