@@ -4,8 +4,12 @@
 ![Made with C++](https://img.shields.io/badge/Made_with-C%2B%2B-logoColor?logo=C%2B%2B&logoColor=C%2B%2B)
 ![GitHub search hit counter](https://img.shields.io/github/search/yue-sun/lbrmt/Hit?logo=github&logoColor=github)
 
-
 Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, preprint (2024) [[arXiv preprint](https://arxiv.org/abs/2402.12696)]
+
+<p align="center">
+  <img width="640" src=https://github.com/yue-sun/lbrmt/assets/30400317/9546c5ce-d1e1-446e-80d1-ee2c9e68f364>
+</p>
+
 
 ## What is LBRMT?
 
