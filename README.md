@@ -1,6 +1,6 @@
 # Lattice Boltzmann reference map technique (LBRMT)
 
-![arXiv](https://img.shields.io/badge/arXiv-2402.12696-b31b1b?logo=arXiv&logoColor=arXiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.12696)
+[![arXiv](https://img.shields.io/badge/arXiv-2402.12696-b31b1b?logo=arXiv&logoColor=arXiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.12696)](https://arxiv.org/abs/2402.12696)
 ![Made with C++](https://img.shields.io/badge/Made_with-C%2B%2B-logoColor?logo=C%2B%2B&logoColor=C%2B%2B)
 ![GitHub search hit counter](https://img.shields.io/github/search/yue-sun/lbrmt/Hit?logo=github&logoColor=github)
 
@@ -36,12 +36,13 @@ Code and tutorial will be released soon.
 
 ## More on the RMT
 
-### Code
-![IncRMT GitHub](https://img.shields.io/badge/chr1shr_-incrmt-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fchr1shr%2Fincrmt)
-![Static Badge](https://img.shields.io/badge/ylunalin_-RMT3D-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fylunalin%2FRMT3D)
+### Software
 
-- [IncRMT](https://github.com/chr1shr/incrmt): incompressible reference map technique for FSI
-- [RMT3D](https://github.com/ylunalin/RMT3D): 3D reference map technique for FSI
+| Code  | Paper |
+| ------------- | ------------- |
+| [![IncRMT GitHub](https://img.shields.io/badge/chr1shr_-incrmt-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fchr1shr%2Fincrmt)](https://github.com/chr1shr/incrmt)  | *Reference map technique for incompressible fluid-structure interaction*  |
+| [![Static Badge](https://img.shields.io/badge/ylunalin_-RMT3D-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fylunalin%2FRMT3D)](https://github.com/ylunalin/RMT3D)  | *Eulerian simulation of complex suspensions and biolocomotion in three dimensions*  |
+
 
 ### References
 1. Ken Kamrin, *Stochastic and deterministic models for dense granular flow*,
