@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.12696-b31b1b?logo=arXiv&logoColor=arXiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.12696)](https://arxiv.org/abs/2402.12696)
 ![Made with C++](https://img.shields.io/badge/Made_with-C%2B%2B-logoColor?logo=C%2B%2B&logoColor=C%2B%2B)
-![GitHub search hit counter](https://img.shields.io/github/search/yue-sun/lbrmt/Hit?logo=github&logoColor=github)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, preprint (2024) [[arXiv preprint](https://arxiv.org/abs/2402.12696)]
 
@@ -64,7 +64,7 @@ Code and tutorial will be released soon.
    multiphase interactions of soft solid bodies in fluids*, Journal of Applied Mechanics **82**, 041011 (2015).
    [doi:10.1115/1.4029765](https://doi.org/10.1115/1.4029765)
 
-5. Chris H. Rycroft, C.-H. Wu, Y. Yu, and K. Kamrin, *Reference map technique for incompressible fluid-structure interaction*, Journal of Fluid Mechanics **898**, A9 (2020).
+5. Chris H. Rycroft, Chen-Hung Wu, Yue Yu, and Ken Kamrin, *Reference map technique for incompressible fluid-structure interaction*, Journal of Fluid Mechanics **898**, A9 (2020).
    [doi:10.1017/jfm.2020.353](https://doi.org/10.1017/jfm.2020.353)
 
 6. Yuexia Luna Lin, Nicolas J. Derr, and Chris H. Rycroft, *Eulerian simulation of complex suspensions and biolocomotion in three dimensions*, Proc. Natl. Acad. Sci. **119**, e2105338118 (2022). [doi:10.1073/pnas.2105338118](https://doi.org/10.1073/pnas.2105338118)
