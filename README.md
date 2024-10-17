@@ -43,7 +43,6 @@ First, navigate to the directory that you want to install `LBRMT` then clone the
 ```
 git clone https://github.com/yue-sun/lbrmt.git
 ```
-
 Second, navigate into `lbrmt` and compile:
 ```
 cd lbrmt
@@ -52,7 +51,7 @@ make
 Now your executables should be in the `build/` and ready to run!
 > :warning: **GCC**: If you're a Mac user, make sure your `GCC` is in `/opt/homebrew/bin/gcc` when you type `which gcc`. Also, adjust the `GCC` version in the `Makefile` according to your `GCC` version.
 
-### :arrow_forward: Examples
+### :cool: Examples
 
 After successfully compiling the code, you should have the following directories within `lbrmt/`:
 ```
@@ -83,6 +82,8 @@ To run other examples, follow the similar command structure:
 ```
 OMP_NUM_THREADS=(#threads) ./build/(your_exec) ./sims/(your_sim).cfg
 ```
+> :warning: If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
+
 
 ## :bookmark_tabs: More on the RMT
 
@@ -92,7 +93,6 @@ OMP_NUM_THREADS=(#threads) ./build/(your_exec) ./sims/(your_sim).cfg
 | ------------- | ------------- |
 | [![IncRMT GitHub](https://img.shields.io/badge/chr1shr_-incrmt-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fchr1shr%2Fincrmt)](https://github.com/chr1shr/incrmt)  | *Reference map technique for incompressible fluid-structure interaction*  |
 | [![Static Badge](https://img.shields.io/badge/ylunalin_-RMT3D-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fylunalin%2FRMT3D)](https://github.com/ylunalin/RMT3D)  | *Eulerian simulation of complex suspensions and biolocomotion in three dimensions*  |
-
 
 ### :books: References
 1. Ken Kamrin, *Stochastic and deterministic models for dense granular flow*,
