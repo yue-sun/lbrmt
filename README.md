@@ -40,11 +40,11 @@ The code is written in C++ and uses the OpenMP library for multithreading. It ha
 ### ⏬ Install and compile
 
 First, navigate to the directory that you want to install `LBRMT` then clone the repo:
-```
+```shell
 git clone https://github.com/yue-sun/lbrmt.git
 ```
 Second, navigate into `lbrmt` and compile:
-```
+```shell
 cd lbrmt
 make
 ```
@@ -54,7 +54,7 @@ Now your executables should be in the `build/` and ready to run!
 ### 🆒 Examples
 
 After successfully compiling the code, you should have the following directories within `lbrmt/`:
-```
+```shell
 lbrmt
 │   README.md
 │   Makefile
@@ -73,7 +73,7 @@ lbrmt
 ```
 
 The benchmark example (Section 4.1) of a soft solid in lid-driven cavity can be run using two threads with the following command:
-```
+```shell
 OMP_NUM_THREADS=2 build/sim_fsi sims/fsi_ldc.cfg
 ```
 The config file specifies the simulation parameters, such as domain size, geometric and material properties for the solid, and physical properties for the fluid. The code will create a directory called `fsi_ldc.out` for the simulation output under the `sims/` directory. To process the output data, navigate to the `utils` directory and there are Python scripts and notebooks to postprocess for data analysis and visualization.
@@ -81,8 +81,8 @@ The config file specifies the simulation parameters, such as domain size, geomet
 To modify the simulation domain size or solid/fluid properties, modify the `*.cfg` files.
 
 To run other examples, follow the similar command structure:
-```
-OMP_NUM_THREADS=(#threads) build/(your_exec) sims/(your_sim).cfg
+```shell
+OMP_NUM_THREADS=(num_threads) build/(your_exec) sims/(your_sim).cfg
 ```
 > ⚠️ If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
 
