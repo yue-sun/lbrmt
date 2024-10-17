@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.12696-b31b1b?logo=arXiv&logoColor=arXiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.12696)](https://arxiv.org/abs/2402.12696)
 ![Made with C++](https://img.shields.io/badge/Made_with-C%2B%2B-logoColor?logo=C%2B%2B&logoColor=C%2B%2B)
-<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, preprint (2024) [[arXiv preprint](https://arxiv.org/abs/2402.12696)]
 
@@ -49,7 +49,7 @@ cd lbrmt
 make
 ```
 Now your executables should be in the `build/` and ready to run!
-> :warning: **GCC**: If you're a Mac user, make sure your `GCC` is in `/opt/homebrew/bin/gcc` when you type `which gcc`. Also, adjust the `GCC` version in the `Makefile` according to your `GCC` version.
+> ⚠️ **GCC**: If you're a Mac user, make sure your `GCC` is in `/opt/homebrew/bin/gcc` when you type `which gcc`. Also, adjust the `GCC` version in the `Makefile` according to your `GCC` version.
 
 ### 🆒 Examples
 
@@ -84,7 +84,7 @@ To run other examples, follow the similar command structure:
 ```
 OMP_NUM_THREADS=(#threads) build/(your_exec) sims/(your_sim).cfg
 ```
-> :warning: If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
+> ⚠️ If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
 
 
 ## 🚧 Known issues and todos
@@ -115,7 +115,7 @@ If you use this code in your research or anywhere, please cite the preprint:
 
 ## 📑 More on the RMT
 
-### 🔢 Software
+### ⌨️ Software
 
 | Code  | Paper |
 | ------------- | ------------- |
