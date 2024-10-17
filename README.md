@@ -85,6 +85,24 @@ OMP_NUM_THREADS=(#threads) ./build/(your_exec) ./sims/(your_sim).cfg
 > :warning: If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
 
 
+## :pencil: Citation
+
+If you use this code in your research or anywhere, please cite the preprint:
+```bibtex
+@misc{sun2024fullyintegrated,
+  title = {A fully-integrated lattice {{Boltzmann}} method for fluid--structure interaction},
+  author = {Sun, Yue and Rycroft, Chris H.},
+  year = {2024},
+  number = {arXiv:2402.12696},
+  eprint = {2402.12696},
+  primaryclass = {physics},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2402.12696},
+  archiveprefix = {arxiv}
+}
+```
+
+
 ## :bookmark_tabs: More on the RMT
 
 ### :octocat: Software
