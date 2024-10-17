@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+# Build directory used with Make
+build
+objs
+
+# Vim swap files
+*.swn
+*.swp
+*.swo
+
+# Python notebooks
+*.pyc
+*.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
