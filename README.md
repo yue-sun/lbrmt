@@ -68,8 +68,7 @@ lbrmt
 │   │   fsi_ldc.cfg     # lid-driven cavity with a soft solid
 │   │   fsi_rotate.cfg  # 4 anchored rotors rotating
 │   │   fsi_settle.cfg  # 1 solid settling or floating
-│   │   fsi_mix.cfg     # 100 solids mixing
-│   └───fsi_mix_169.cfg # 506 solids mixing
+│   └───fsi_mix.cfg     # 100 solids mixing
 └───utils # scripts for visualization and data processing
 ```
 
@@ -93,6 +92,7 @@ OMP_NUM_THREADS=(#threads) build/(your_exec) sims/(your_sim).cfg
 - [ ] Solids at wall boundaries: Currently can only handle `bctype==3` (fully no-slip box); other wall boundary conditions will be added
 - [ ] Consolidate executables
 - [ ] Make the entire extrapolation routine parallel
+- [ ] Simulate microswimmers
 
 
 ## :pencil: Citation
