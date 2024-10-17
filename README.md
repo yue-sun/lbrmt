@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.12696-b31b1b?logo=arXiv&logoColor=arXiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.12696)](https://arxiv.org/abs/2402.12696)
 ![Made with C++](https://img.shields.io/badge/Made_with-C%2B%2B-logoColor?logo=C%2B%2B&logoColor=C%2B%2B)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
 
 Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, preprint (2024) [[arXiv preprint](https://arxiv.org/abs/2402.12696)]
 
@@ -11,7 +11,7 @@ Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for f
 </p>
 
 
-## :ocean: What is LBRMT?
+## 🌊 What is LBRMT?
 
 The LBRMT is designed to simulate fluid–structure interaction (FSI).
 
@@ -21,23 +21,23 @@ We use the reference map technique (RMT) to model solid large deformation. Addit
 The LBRMT is suitable for parallelization and capturing the multi-body contact of hundreds of solids. It can simulate soft solids rotating, settling, floating, and mixing. We believe it could be a promising tool for simulating the spatiotemporal patterns of active matter and studying both the collective and individual dynamics of biological systems.
 
 
-## :star2: Why LBRMT?
+## 🌟 Why LBRMT?
 
 - **_One grid to run them all_**: no extra meshes or remeshing needed to track solids
 - **_From Boltzmann to lattice Boltzmann_**: easy to parallelize for fluid simulation
 - **_The more, the merrier_**: efficient to model hundreds of soft solids
 
 
-## :clapper: _"What is a video worth?"_
+## 🎬 _"What is a video worth?"_
 
 If a picture is worth a thousand words, [check out our simulation videos](videos/README.md)!
 
 
-## :computer: How to use LBRMT?
+## 💻 How to use LBRMT?
 
 The code is written in C++ and uses the OpenMP library for multithreading. It has been tested on Linux and MacOS (GCC installed via Homebrew). The following compiling instructions assume that you have a working C++ environment with OpenMP on your computer. All commands are in the terminal.
 
-### :arrow_down: Install and compile
+### ⏬ Install and compile
 
 First, navigate to the directory that you want to install `LBRMT` then clone the repo:
 ```
@@ -51,7 +51,7 @@ make
 Now your executables should be in the `build/` and ready to run!
 > :warning: **GCC**: If you're a Mac user, make sure your `GCC` is in `/opt/homebrew/bin/gcc` when you type `which gcc`. Also, adjust the `GCC` version in the `Makefile` according to your `GCC` version.
 
-### :cool: Examples
+### 🆒 Examples
 
 After successfully compiling the code, you should have the following directories within `lbrmt/`:
 ```
@@ -87,7 +87,7 @@ OMP_NUM_THREADS=(#threads) build/(your_exec) sims/(your_sim).cfg
 > :warning: If you run into complication or running errors, please either create a [New issue](https://github.com/yue-sun/lbrmt/issues) on GitHub or contact Yue Sun via email.
 
 
-## :construction: Known issues and todos
+## 🚧 Known issues and todos
 
 - [ ] Solids at wall boundaries: Currently can only handle `bctype==3` (fully no-slip box); other wall boundary conditions will be added
 - [ ] Consolidate executables
@@ -95,7 +95,7 @@ OMP_NUM_THREADS=(#threads) build/(your_exec) sims/(your_sim).cfg
 - [ ] Simulate microswimmers
 
 
-## :pencil: Citation
+## 📝 Citation
 
 If you use this code in your research or anywhere, please cite the preprint:
 ```bibtex
@@ -113,16 +113,16 @@ If you use this code in your research or anywhere, please cite the preprint:
 ```
 
 
-## :bookmark_tabs: More on the RMT
+## 📑 More on the RMT
 
-### :octocat: Software
+### 🔢 Software
 
 | Code  | Paper |
 | ------------- | ------------- |
 | [![IncRMT GitHub](https://img.shields.io/badge/chr1shr_-incrmt-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fchr1shr%2Fincrmt)](https://github.com/chr1shr/incrmt)  | *Reference map technique for incompressible fluid-structure interaction*  |
 | [![Static Badge](https://img.shields.io/badge/ylunalin_-RMT3D-logo?logo=github&link=https%3A%2F%2Fgithub.com%2Fylunalin%2FRMT3D)](https://github.com/ylunalin/RMT3D)  | *Eulerian simulation of complex suspensions and biolocomotion in three dimensions*  |
 
-### :books: References
+### 📚 References
 1. Ken Kamrin, *Stochastic and deterministic models for dense granular flow*,
    Ph.D. thesis, Massachusetts Institute of Technology (2008).
    [DSpace](http://hdl.handle.net/1721.1/43736)
