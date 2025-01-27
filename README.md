@@ -6,7 +6,7 @@
 [![GitHub license](https://img.shields.io/github/license/yue-sun/lbrmt?labelColor=34495e)](https://github.com/yue-sun/lbrmt/blob/main/LICENSE)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyue-sun%2Flbrmt&count_bg=%230D74E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, Journal of Computational Physics, in press (2025) [[DOI link](https://jcp.2025.113774)][[arXiv preprint](https://arxiv.org/abs/2402.12696)]
+Yue Sun and Chris H. Rycroft, *A fully-integrated lattice Boltzmann method for fluid–structure interaction*, Journal of Computational Physics, in press (2025) [[DOI link](https://doi.org/10.1016/j.jcp.2025.113774)] [[arXiv preprint](https://arxiv.org/abs/2402.12696)]
 
 <p align="center">
   <img width="640" src=https://github.com/yue-sun/lbrmt/assets/30400317/9546c5ce-d1e1-446e-80d1-ee2c9e68f364>
@@ -108,7 +108,8 @@ If you use this code in your research or anywhere, please cite the paper:
   journal = {Journal of Computational Physics},
   volume = {TBD},
   number = {TBD},
-  pages = {TBD},
+  pages = {113774},
+  issn = {0021-9991},
   publisher = {Elsevier},
   doi = {10.1016/j.jcp.2025.113774}
 }
